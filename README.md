@@ -1,5 +1,5 @@
 
-# Tati Lima Designer
+<h1 align="center">Tati Lima Sobrancelhas</h1>
 <img src="https://cdn.discordapp.com/attachments/966886692109819994/1194676193925025873/Logotipo_principal_1.png?ex=65b137e8&is=659ec2e8&hm=d9baba1feb744e09b120cd004372e98620b2d2ff02aef123be6548283f708bc5&" alt="Logo">
 
 ## Visão Geral:
