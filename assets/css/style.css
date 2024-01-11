@@ -1,6 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 /*!
  * Clean v2.0.0
  * Homepage: http://scripteden.com
@@ -9,7 +7,7 @@
 */
 
 body {
-	font: 300 14px/1.8 'Raleway', sans-serif;
+	font-family:'Montserrat', sans-serif;
 	color: #666;
 	overflow-x: hidden;
 }
@@ -69,7 +67,7 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 Raleway, sans-serif;
+	font-size:'', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -175,7 +173,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .btn {
-	font-family: Raleway, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 13px;
@@ -276,7 +274,7 @@ textarea.form-control {
 }
 
 .pfblock-subtitle {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-size: 18px;
 }
@@ -295,7 +293,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/item-3.jpg);
+    background: url(../images/pics-brand/aplicado/Aplicado\ 3.png);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -343,7 +341,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/cover.jpg);
+	background: url(../images/pics-brand/logo/logo-prata-01.jpeg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -386,7 +384,7 @@ textarea.form-control {
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
@@ -525,19 +523,22 @@ textarea.form-control {
 	border-radius: 0;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: Raleway, sans-serif;
+	font-family: 'Montserrat';
 }
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
 	background: #fff;
-	padding: 0;
+	display: flex;
+	align-items: center;
+	padding: 40px;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 11px;
+	font-size: 16px;
+	font-weight: bold;
 	letter-spacing: 3px;
 	color: #222;
 }
@@ -548,19 +549,20 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #E7746F;
+	color: #7e4386;
 }
 
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    font-family: 'Montserrat';
 }
 
 .navbar-custom .dropdown-menu {
 	border: 0;
-	border-top: 2px solid #E7746F;
+	border-top: 2px solid #E5CFE5;
 	border-radius: 0;
+	font-family: 'Montserrat';
 }
 
 .navbar-custom .dropdown-menu > li > a {
@@ -803,7 +805,8 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9e5406;
+	background: #E5CFE5;
+	border-radius: 50px;
 }
 
 figure.effect-bubba img {
@@ -813,7 +816,7 @@ figure.effect-bubba img {
 }
 
 figure.effect-bubba:hover img {
-	opacity: 0.4;
+	opacity: 0.3;
 }
 
 figure.effect-bubba figcaption::before,
@@ -969,3 +972,8 @@ figure.effect-bubba:hover p {
 
 }
 
+.alignCenter {
+	display: flex;
+  justify-content: center;
+	height: 60px; /* Ajuste conforme necessário */
+}
