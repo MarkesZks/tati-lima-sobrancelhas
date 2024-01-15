@@ -139,38 +139,7 @@ h6 {
   font-weight: 700;
 }
 
-/* ---------------------------------------------- /*
- * Inputs styles
-/* ---------------------------------------------- */
 
-.form-control {
-  background: #fff;
-  border: 1px solid #d8e1e4;
-  font-size: 12px;
-  padding: 0 15px;
-}
-
-.form-control:focus {
-  border-color: rgba(135, 135, 135, 0.7);
-}
-
-.input-lg,
-.form-horizontal .form-group-lg .form-control {
-  height: 38px;
-  font-size: 13px;
-}
-
-.input-sm,
-.form-horizontal .form-group-sm .form-control {
-  font-size: 11px;
-  height: 30px;
-}
-
-textarea.form-control {
-  padding: 15px;
-  max-width: 100%;
-  min-width: 100%;
-}
 
 /* ---------------------------------------------- /*
  * Custom button style
@@ -192,40 +161,6 @@ textarea.form-control {
   outline: inherit !important;
 }
 
-/* Button size */
-
-.btn-lg,
-.btn-group-lg > .btn {
-  padding: 10px 25px;
-  font-size: 13px;
-  background: rgba(17, 17, 17, 0.8);
-  color: #fff;
-}
-.btn-lg:hover,
-.btn-group-lg > .btn:hover {
-  background: rgba(17, 17, 17, 1.8);
-  color: #fff;
-}
-
-.btn-sm,
-.btn-group-sm > .btn {
-  padding: 6px 25px;
-  font-size: 11px;
-}
-
-.btn-xs,
-.btn-group-xs > .btn {
-  padding: 5px 25px;
-  font-size: 10px;
-}
-
-.btn .icon-before {
-  margin-right: 6px;
-}
-
-.btn .icon-after {
-  margin-left: 6px;
-}
 
 /* ---------------------------------------------- /*
  * General Styles
@@ -247,21 +182,9 @@ textarea.form-control {
   color: #fff;
 }
 
-.pfblock-title {
-  font-weight: 800;
-}
-
-.pfblock-subtitle {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-size: 18px;
-}
 
 
 
-.pfblock-icon {
-  font-size: 32px;
-}
 .calltoaction * {
   text-align: center;
 }
@@ -270,9 +193,6 @@ textarea.form-control {
   background-color: #222;
   background-repeat: no-repeat;
   background-position: 0 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   padding: 50px 0;
   color: #999;
@@ -305,9 +225,7 @@ textarea.form-control {
   background: #fff;
 }
 
-.long-down {
-  margin-bottom: 40px;
-}
+
 
 /* ---------------------------------------------- /*
  * Home
@@ -387,43 +305,7 @@ textarea.form-control {
   padding: 0;
 }
 
-/* ---------------------------------------------- /*
- * Skills
-/* ---------------------------------------------- */
 
-.chart {
-  display: inline-block;
-  height: 140px;
-  margin: 50px 0;
-  position: relative;
-  text-align: center;
-  width: 140px;
-}
-.chart canvas {
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-.percent {
-  display: inline-block;
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 140px;
-  z-index: 2;
-}
-.percent:after {
-  content: "%";
-  font-size: 50%;
-  margin-left: 0.1em;
-}
-
-/* ---------------------------------------------- /*
- * Contact
-/* ---------------------------------------------- */
-
-.ajax-response {
-  text-align: center;
-}
 
 /* ---------------------------------------------- /*
  * Footer
@@ -698,16 +580,6 @@ textarea.form-control {
 /***** Portfolio Common style *****/
 /*--------------------------------*/
 
-.grid {
-  position: relative;
-  clear: both;
-  margin: 0 auto;
-  padding: 1em 0 4em;
-  max-width: 100%;
-  list-style: none;
-  text-align: center;
-}
-
 .grid h2 {
   font-size: 20px;
 }
@@ -960,6 +832,40 @@ figure.effect-bubba:hover p {
 {
 	margin-top: 120px;
 }
+.cursos h2{
+  font-weight: 700;
+  text-align: start;
+}
+.curso-container{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+ 
+}
+.img-cursos{
+  width: 30%;
+}
+.curso-descritivo{
+  margin-left: 25px;
+
+}
+.curso-descritivo h3{
+  font-size: 23px;
+  font-weight: 700;
+}
+.button-cursos{
+ border-radius: 43px;
+border: 2px solid #000;
+background: #FFF;
+color: #672471;
+font-family: 'Montserrat';
+font-size: 18px;
+font-weight: 600;
+width: 150px;
+height: 44px;
+
+
+}
 
 .line-subtitle {
   background: #672471;
@@ -972,7 +878,7 @@ figure.effect-bubba:hover p {
 	background: #672471;
 	width: 30%;
 	height: 3px;
-	margin: 10px auto 58px;
+	margin: 10px;
 
 	
   }
@@ -1040,4 +946,54 @@ text-align: center;
 }
 .icons-div a:hover {
 	color: purple;
+}
+
+/*Slider*/
+.slider{
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+
+}
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+.slide input{
+  display: none;
+}
+.slide{
+  width: 25%;
+  position: relative;
+}
+.slide img{
+  width: 800px;
+}
+.manual-navigation{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn{
+  border: 2px solid #FFF;
+  padding:5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+.manual-btn:hover{
+  background-color: #FFF;
+}
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+  margin-left: -25%;
 }
