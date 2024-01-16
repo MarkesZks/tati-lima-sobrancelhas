@@ -828,60 +828,13 @@ figure.effect-bubba:hover p {
 }
 
 /* OUR CUSTOM STYLE */
-.cursos
-{
-	margin-top: 120px;
-}
-.cursos h2{
-  font-weight: 700;
-  text-align: start;
-}
-.curso-container{
-  margin-top: 60px;
-  margin-bottom: 20px;
-  display: flex;
- 
-}
-.img-cursos{
-  width: 30%;
-}
-.curso-descritivo{
-  margin-left: 25px;
-
-}
-.curso-descritivo h3{
-  font-size: 23px;
-  font-weight: 700;
-}
-.button-cursos{
- border-radius: 43px;
-border: 2px solid #000;
-background: #FFF;
-color: #672471;
-font-family: 'Montserrat';
-font-size: 18px;
-font-weight: 600;
-width: 150px;
-height: 44px;
 
 
-}
-
-.line-subtitle {
+.line-center {
   background: #672471;
-  width: 100%;
-  height: 3px;
-  margin: 20px auto;
-}
-
-  .line-title {
-	background: #672471;
 	width: 30%;
 	height: 3px;
-	margin: 10px;
-
-	
-  }
+}
 .texth2{
 text-align: center;
 }
@@ -997,3 +950,124 @@ text-align: center;
 #radio2:checked ~ .first{
   margin-left: -25%;
 }
+
+
+/* PROCEDIMENTOS */
+.procedures {
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center; 
+  border-bottom: 3px solid #672471; 
+  display: inline-block; 
+  padding-bottom: 5px; 
+}
+
+.procedures-p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* CURSOS */
+
+.cursos h2 {
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center; 
+  border-bottom: 3px solid #672471; 
+  display: inline-block; 
+  padding-bottom: 5px; 
+}
+
+.cursos
+{
+	margin-top: 120px;
+}
+
+.cursos .subtitle-p {
+  text-align: center;
+}
+
+.curso-container{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+ 
+}
+.img-cursos{
+  width: 30%;
+}
+.curso-descritivo{
+  margin-left: 25px;
+
+}
+.curso-descritivo h3{
+  font-size: 23px;
+  font-weight: 700;
+}
+.button-cursos{
+ border-radius: 43px;
+border: 2px solid #000;
+background: #FFF;
+color: #672471;
+font-family: 'Montserrat';
+font-size: 18px;
+font-weight: 600;
+width: 150px;
+height: 44px;
+
+
+}
+
+.line-subtitle {
+  background: #672471;
+  width: 100%;
+  height: 3px;
+  margin: 20px auto;
+}
+
+
+
+/* BUTTON CONFIG */
+.btn {
+  border: solid 2px #672471 ;
+  width: 15em;
+  height: 5em;
+  border-radius: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+}
+
+.sparkle {
+  fill: #672471;
+  transition: all 800ms ease;
+}
+
+.text {
+  font-weight: 600;
+  color: #672471;
+  font-size: medium;
+}
+
+.btn:hover {
+  background: linear-gradient(0deg,#A47CF3,#683FEA);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+  inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+  0px 0px 0px 0px #9917FF;
+  transform: translateY(-2px);
+}
+
+.btn:hover .text {
+  color: white;
+}
+
+.btn:hover .sparkle {
+  fill: white;
+  transform: scale(1.2);
+} 
