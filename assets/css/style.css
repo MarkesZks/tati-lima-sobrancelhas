@@ -1329,3 +1329,105 @@ margin-top: 50px;
 .faq h2 {
   color:  white;
 }
+
+/* Footer */
+
+#footer {
+  background-color: #672471 ;
+  color: white;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-footer img {
+  width: 180px;
+  height: auto;
+  margin:  0 30px 0 30px;
+}
+
+.vertical-bar {
+  display: block; /* ou use display: inline-block; */
+      width: 2px; /* Garante que o span ocupe toda a largura disponível */
+      height: 160px; /* Altura desejada da barra */
+      background-color: white;
+      opacity:60%;
+}
+
+.top-texts li {
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+  display: inline;
+}
+.top-texts a {
+  color: white;
+  font-weight: 500;
+}
+.top-texts a:hover {
+  color:
+  #000000;
+}
+
+.left-container {
+  display: flex;
+}
+
+.left-texts p {
+  margin-left: 20px;
+  font-size: 18px;
+  opacity: 70%;
+}
+
+.left-texts {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ }
+
+ .ul-footer {
+  margin-left: -40px;
+ }
+
+
+
+ .right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 50px;
+ }
+
+.right-texts {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+ .icons-footer a {
+  font-size: 36px;
+  margin-right: 8px;
+  color: white;
+  opacity: 80%;
+ }
+
+ .icons-footer a:hover {
+  color: black;
+ }
+
+.email {
+  font-size: 18px;
+  color: white;
+}
+
+.email:hover {
+  font-size: 18px;
+  color: black;
+  font-weight: 600px;
+}
