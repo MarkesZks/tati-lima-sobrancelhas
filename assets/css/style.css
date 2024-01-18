@@ -236,8 +236,7 @@ h6 {
 #home {
 
     background-color: #672471;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+height: 100vh;
 ;
 }
 #home-bk-img{
@@ -245,6 +244,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
 #homeimg{
 width: 70%;
 
@@ -253,12 +253,9 @@ width: 70%;
 
 .home-overlay {
   background-repeat: repeat;
-  height: 100%;
-  left: 0;
+  height: 100vh;
   position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 0;
+
 }
 
 .intro {
@@ -470,19 +467,22 @@ width: 70%;
 /* ---------------------------------------------- /*
  *Scroll Down
 /* ---------------------------------------------- */
+.flex{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
 
 .scroll-down {
-  position: absolute;
-  left: 50%;
+margin-top: 50px;
   bottom: 40px;
   border: 2px solid #fff;
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  margin-left: -15px;
-  display: block;
   z-index: 10;
   text-align: center;
+ 
 }
 
 .scroll-down span {
@@ -558,28 +558,7 @@ width: 70%;
   width: 200px;
 }
 
-/* ---------------------------------------------- /*
- * Media
-/* ---------------------------------------------- */
 
-@media (max-width: 767px) {
-  .calltoaction {
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 34px;
-    letter-spacing: 3px;
-  }
-
-  h2 {
-    font-size: 24px;
-    margin: 0 0 30px;
-    letter-spacing: 3px;
-  }
-}
 
 /*--------------------------------*/
 /***** Portfolio Common style *****/
@@ -747,97 +726,8 @@ figure.effect-bubba:hover p {
   transform: translate3d(0, 0, 0);
 }
 
-/*-----------------------*/
-/***** Quote Rotator *****/
-/*-----------------------*/
 
-.cbp-qtrotator {
-  position: relative;
-  margin: 3em auto 0em auto;
-  max-width: 90%;
-  width: 90%;
-}
 
-.cbp-qtrotator .cbp-qtcontent {
-  position: absolute;
-  min-height: 200px;
-  border-top: 1px solid #f4f4f4;
-  border-bottom: 1px solid #f4f4f4;
-  padding: 2em 0;
-  top: 0;
-  z-index: 0;
-  opacity: 0;
-  width: 100%;
-}
-
-.no-js .cbp-qtrotator .cbp-qtcontent {
-  border-bottom: none;
-}
-
-.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
-.no-js .cbp-qtrotator .cbp-qtcontent {
-  position: relative;
-  z-index: 100;
-  pointer-events: auto;
-  opacity: 1;
-}
-
-.cbp-qtrotator .cbp-qtcontent:before,
-.cbp-qtrotator .cbp-qtcontent:after {
-  content: " ";
-  display: table;
-}
-
-.cbp-qtrotator .cbp-qtcontent:after {
-  clear: both;
-}
-
-.cbp-qtprogress {
-  position: absolute;
-  background: #ff5252;
-  height: 1px;
-  width: 0%;
-  top: 0;
-  z-index: 1000;
-}
-
-.cbp-qtrotator blockquote {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 12px;
-}
-
-.cbp-qtrotator blockquote p {
-  font-size: 2em;
-  color: #888;
-  font-weight: 300;
-  margin: 0.4em 0 1em;
-}
-
-.cbp-qtrotator blockquote footer {
-  font-size: 1.2em;
-}
-
-.cbp-qtrotator blockquote footer:before {
-  content: "― ";
-}
-
-.cbp-qtrotator .cbp-qtcontent img {
-  float: right;
-  margin-left: 3em;
-}
-
-/* Example for media query */
-@media screen and (max-width: 30.6em) {
-  .cbp-qtrotator {
-    font-size: 70%;
-  }
-
-  .cbp-qtrotator img {
-    width: 80px;
-  }
-}
 
 /* OUR CUSTOM STYLE */
 .line-center {
@@ -1430,4 +1320,44 @@ margin-top: 50px;
   font-size: 18px;
   color: black;
   font-weight: 600px;
+}
+
+
+
+
+/* ---------------------------------------------- /*
+ * Media
+/* ---------------------------------------------- */
+
+@media (max-width: 767px) {
+  .calltoaction {
+    text-align: center;
+  }
+}
+@media (max-width: 1360px) {
+  .calltoaction {
+    text-align: center;
+  }
+  #home {
+  height: 90vh;
+;
+}
+}
+@media (max-width: 1200px) {
+
+  #home {
+  height: 75vh;
+;
+}
+}
+@media (max-width: 800px) {
+
+  #home {
+  height: 30vh;
+;
+
+
+}.scroll-down{
+ display: none;
+}
 }
