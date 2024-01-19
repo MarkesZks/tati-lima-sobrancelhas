@@ -32,7 +32,8 @@ $ cd tati-lima-sobrancelhas
 # Abrir na IDE de sua preferência
 $ code .
 
-# Just open in the live share
+# Abrir com live share
+url: http://127.0.0.1:5500/index.html
 ```
 
 
