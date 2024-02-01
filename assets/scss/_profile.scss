@@ -1,0 +1,57 @@
+.section-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.container-profile {
+  max-width: 87.5rem;
+  width: 100%;
+	gap: 6.25rem;
+  display: flex;
+}
+
+.image-logo {
+  flex: 1;
+  overflow: hidden;
+}
+
+
+.image-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  flex: 1;
+  padding: 1.25rem;
+}
+
+.content h1 {
+	font-size: 3.75rem;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.content p {
+	font-size: 2rem;
+	letter-spacing: 0.25rem;
+  color: black;
+  opacity: 60%
+}
+
+.icons-div {
+	margin-top: 2.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.iconh:hover {
+	color: $maincolor;
+}
+.iconh{
+  font-size: 3.75rem; color: black;
+}
