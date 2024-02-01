@@ -1,0 +1,104 @@
+@media (max-width: 1560px) {
+  .calltoaction {
+    text-align: center;
+  }
+
+}
+@media (max-width: 1200px) {
+  #home {
+  height: 70vh;;
+}
+
+}
+@media (max-width: 800px) {
+
+  #home {
+  height: 40vh;
+}.scroll-down{
+ display: none;
+}
+#homecell{
+  display: block;
+  width: 50%;
+  padding: 20px;
+}
+#homeimg {
+  display: none;
+}
+
+}
+@media (max-width: 767px) {
+  .calltoaction {
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+
+  #homecell{
+    display: block;
+    width: 50%;
+    padding: 20px;
+  }
+  #homeimg {
+    display: none;
+  }
+
+  #home {
+  height: 25vh;
+}
+
+#homecell{
+  width: 45%;
+}
+
+
+.content h1 {
+	font-size: 30px;
+ text-align: center;
+}
+
+.content p {
+	font-size: 15px;
+	letter-spacing: 2px;
+  text-align: center;
+}
+.line-subtitle{
+  width:50% ;
+}
+.div-title img {
+  height: 25px;
+  width: auto;
+  position: absolute;
+  top: -60%;
+  left: 4.5%;
+  }
+  .image-logo{
+    display: none;
+  }
+ .iconh{
+  font-size: 35px;
+
+ }
+ .cursos{
+margin-left: 50px;
+
+}
+.cursos h2{
+  margin-left: 90px;
+
+  }
+.subtitle-p{
+  width: 90%;
+}
+.curso-container{
+  display: block;
+}
+
+.img-cursos{
+  width: 90%;
+  border-radius: 26px;
+  border: 1px solid #672471;
+  margin-bottom: 15px;
+}
+}
