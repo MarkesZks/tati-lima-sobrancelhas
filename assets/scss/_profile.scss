@@ -31,10 +31,10 @@
 }
 
 .content h1 {
-	font-size: 3.75rem;
+	font-size: 4.2rem;
 	font-weight: bold;
 	text-transform: uppercase;
-
+  letter-spacing: 0.375rem;
 }
 
 .content p {
@@ -50,8 +50,21 @@
 	justify-content: space-between;
 }
 .iconh:hover {
-	color: $maincolor;
+	color: purple;
 }
 .iconh{
   font-size: 3.75rem; color: black;
+}
+
+
+.div-title img {
+height: 2.813rem;
+width: auto;
+position: absolute;
+top: -60%;
+left: -3.5%;
+}
+
+.div-title {
+  position: relative;
 }
