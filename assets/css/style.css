@@ -7053,10 +7053,29 @@ figure.effect-bubba:hover p {
   #homeimg {
     display: none;
   }
+  .icons-footer a {
+    font-size: 1.25rem;
+    margin-right: 0.2rem;
+    color: #fff;
+    opacity: 80%;
+  }
+  .left-container img {
+    width: auto;
+    height: 95px;
+  }
+  .left-container {
+    height: auto;
+  }
+  .displaynone800 {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .calltoaction {
     text-align: center;
+  }
+  .navbar-custom {
+    padding: 15px;
   }
 }
 @media (max-width: 650px) {
