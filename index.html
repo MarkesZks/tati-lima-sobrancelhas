@@ -20,6 +20,7 @@
       media="screen"
     />
     <link href="assets/css/style.css" rel="stylesheet" media="screen" />
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
     <!-- Custom styles CSS -->
   </head>
@@ -65,28 +66,23 @@
               src="assets/images/pics-brand/horizontal-log/horizontal-logo-preto-roxo.png"
               alt=""
               style="max-height: 65px"
-              class="navbar-toggle"
+              class="navbar-brand"
             />
             <button
               type="button"
-              class="navbar-toggle"
+              class="navbar-toggle  "
               data-toggle="collapse"
               data-target="#custom-collapse"
             >
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+            <i class="fas fa-bars"></i>
+
             </button>
+
           </div>
 
           <div class="collapse navbar-collapse" id="custom-collapse">
             <a href="index.html"
-              ><img
-                src="assets/images/pics-brand/horizontal-log/horizontal-logo-preto-roxo.png"
-                alt=""
-                style="max-height: 60px"
-            /></a>
+              ></a>
 
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#home">Home</a></li>
@@ -170,11 +166,11 @@
     <!-- PROCEDURES START -->
     <section id="procedimentos">
       <div class="container">
-        <div class="d-flex justify-content-center">
-          <div class="col-sm-9">
+        <div class="row">
+          <div class="row">
             <div class="texth2">
               <h2 class="procedures">Procedimentos</h2>
-              <div>
+              <div class="media-form">
                 <p class="procedures-p">
                   Aqui sua melhor versão será resgatada, a verdadeira rainha que
                   habita em você surge após esses procedimentos
@@ -374,12 +370,19 @@
                 </div>
               </div>
 
+              <img
+                src="assets/images/courses/instaglow.jpeg"
+                alt=""
+                class="img-cursos displaynone"
+              />
               <div class="curso-container">
                 <div class="curso-descritivo">
                   <h3>Insta Glow</h3>
                   <p>
-
-Vou analisar seu perfil, sua área de atuação e seu público-alvo em detalhes. Após uma entrevista, desenvolvemos uma estratégia personalizada, focada nas suas metas e alinhada ao seu perfil.
+                    Vou analisar seu perfil, sua área de atuação e seu
+                    público-alvo em detalhes. Após uma entrevista, desenvolvemos
+                    uma estratégia personalizada, focada nas suas metas e
+                    alinhada ao seu perfil.
                   </p>
 
                   <button class="btn">
@@ -404,7 +407,7 @@ Vou analisar seu perfil, sua área de atuação e seu público-alvo em detalhes.
                 <img
                   src="assets/images/courses/instaglow.jpeg"
                   alt=""
-                  class="img-cursos"
+                  class="img-cursos img-cursos2"
                 />
               </div>
 
@@ -417,8 +420,12 @@ Vou analisar seu perfil, sua área de atuação e seu público-alvo em detalhes.
                 <div class="curso-descritivo">
                   <h3>Ebook Shine</h3>
                   <p>
-
-Aprenda sobre o desenvolvimento de conteúdo na área da beleza com nosso ebook prático. Descubra estratégias eficazes para atrair e conquistar clientes para o seu estúdio. Este guia abrangente oferece insights valiosos e orientações para fortalecer sua presença no mercado e expandir sua base de clientes.
+                    Aprenda sobre o desenvolvimento de conteúdo na área da
+                    beleza com nosso ebook prático. Descubra estratégias
+                    eficazes para atrair e conquistar clientes para o seu
+                    estúdio. Este guia abrangente oferece insights valiosos e
+                    orientações para fortalecer sua presença no mercado e
+                    expandir sua base de clientes.
                   </p>
 
                   <button class="btn">
@@ -459,7 +466,7 @@ Aprenda sobre o desenvolvimento de conteúdo na área da beleza com nosso ebook 
               Entre em contato.
             </div>
           </div>
-          <button class="btn-contact ">
+          <button class="btn-contact">
             <svg
               height="20"
               width="20"
@@ -600,19 +607,30 @@ Aprenda sobre o desenvolvimento de conteúdo na área da beleza com nosso ebook 
     <!-- FOOTER START -->
     <footer id="footer" class="footer">
       <div class="container">
-        <footer class="py-3 my-4 ">
-          <div class="pic border-bottom  pb-3 mb-4 justify-content-center">
-            <img src="..." alt="put the logo here">
+        <footer class="py-3 my-4">
+          <div class="pic border-bottom pb-3 mb-4 justify-content-center">
+            <img src="..." alt="put the logo here" />
           </div>
           <ul class="nav justify-content-center border-bottom pb-3 mb-4">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
           </ul>
-          <p class="text-center text-body-secondary">&copy; 2024 Company, Inc</p>
-
+          <p class="text-center text-body-secondary">
+            &copy; 2024 Company, Inc
+          </p>
         </footer>
       </div>
     </footer>

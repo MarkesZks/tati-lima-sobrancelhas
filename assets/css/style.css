@@ -6696,6 +6696,10 @@ figure.effect-bubba:hover p {
      object-fit: cover; /* Ajusta o tamanho da imagem mantendo a proporção */
 }
 
+.displaynone {
+  display: none;
+}
+
 .btn-contact {
   border: solid 3px #672471;
   width: 15em;
@@ -6809,18 +6813,6 @@ figure.effect-bubba:hover p {
   z-index: 1;
 }
 
-.button-cursos {
-  border-radius: 2.688rem;
-  border: 0.125rem solid #000;
-  background: #fff;
-  color: #672471;
-  font-family: "Montserrat";
-  font-size: 1.125rem;
-  font-weight: 600;
-  width: 9.375rem;
-  height: 2.75rem;
-}
-
 .line-subtitle {
   background: #672471;
   width: 100%;
@@ -6905,6 +6897,38 @@ figure.effect-bubba:hover p {
 
 .faq h2 {
   color: white;
+}
+
+/* PROCEDIMENTOS */
+.procedures {
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+  border-bottom: 0.188rem solid #672471;
+  display: inline-block;
+  padding-bottom: 0.313rem;
+}
+
+.procedures-p {
+  font-size: 1.75rem;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 1560px) {
@@ -7015,35 +7039,32 @@ figure.effect-bubba:hover p {
     border: 1px solid #672471;
     margin-bottom: 15px;
   }
-}
-/* PROCEDIMENTOS */
-.procedures {
-  font-weight: bold;
-  font-size: 3.5rem;
-  text-align: center;
-  border-bottom: 0.188rem solid #672471;
-  display: inline-block;
-  padding-bottom: 0.313rem;
-}
-
-.procedures-p {
-  font-size: 1.75rem;
-  margin-bottom: 3em;
-  text-align: center;
-}
-
-.cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  .procedures {
+    font-size: 2.5rem;
+  }
+  .procedures-p {
+    font-size: 1rem;
+  }
+  .media-form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .curso-descritivo:nth-child(2) button {
+    position: relative;
+  }
+  /* // Section de baixo */
+  .curso-descritivo:nth-child(1) button {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .displaynone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 80px;
+  }
+  .img-cursos2 {
+    display: none;
+  }
 }
