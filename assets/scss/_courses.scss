@@ -45,7 +45,8 @@
 }
 .curso-descritivo p{
   font-size: 1rem;
-  margin-bottom: 1.25rem;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 /* // Section de cima */
@@ -53,12 +54,15 @@
   position: absolute;
   right: 0%;
   bottom: 0%;
+  z-index: 1;
+  margin-bottom: -1.25rem;
 }
 
 /* // Section de baixo */
 .curso-descritivo:nth-child(1) button{
   position: absolute;
   bottom: 0%;
+  z-index: 1;
 }
 
 
