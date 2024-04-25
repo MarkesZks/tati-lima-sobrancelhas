@@ -54,6 +54,7 @@
     padding: 15px;
   }
 
+
 }
 
 @media (max-width: 650px) {
@@ -123,5 +124,35 @@ margin-left: 50px;
   border-radius: 26px;
   border: 1px solid #672471;
   margin-bottom: 15px;
+}
+.procedures {
+  font-size: 2.5rem;
+
+}
+.procedures-p {
+  font-size: 1rem;
+}
+.media-form{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.curso-descritivo:nth-child(2) button{
+  position: relative;
+
+}
+
+/* // Section de baixo */
+.curso-descritivo:nth-child(1) button{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.displaynone{
+  display: flex;
+  margin-top: 80px;
+}
+.img-cursos2{
+  display: none;
 }
 }
