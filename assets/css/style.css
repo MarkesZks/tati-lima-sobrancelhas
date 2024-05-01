@@ -6899,6 +6899,11 @@ figure.effect-bubba:hover p {
   color: white;
 }
 
+.image-footer {
+  height: 15rem;
+  margin-bottom: 1rem;
+}
+
 /* PROCEDIMENTOS */
 .procedures {
   font-weight: bold;
@@ -6987,9 +6992,6 @@ figure.effect-bubba:hover p {
     width: 50%;
     padding: 20px;
   }
-  #homeimg {
-    display: none;
-  }
   #home {
     height: 25vh;
   }
@@ -7014,9 +7016,6 @@ figure.effect-bubba:hover p {
     position: absolute;
     top: -60%;
     left: 4.5%;
-  }
-  .image-logo {
-    display: none;
   }
   .iconh {
     font-size: 35px;
@@ -7066,5 +7065,27 @@ figure.effect-bubba:hover p {
   }
   .img-cursos2 {
     display: none;
+  }
+  .navbar-custom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .image-logo {
+    display: none;
+  }
+  .tatiimgmobile {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .section-profile {
+    margin-top: 0;
   }
 }
