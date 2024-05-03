@@ -6215,16 +6215,14 @@ h6 {
 }
 
 .navbar-custom {
-  border: 0;
-  border-radius: 0;
-  margin: 0;
+  color: #7e4386;
   text-transform: uppercase;
   font-family: "Montserrat";
+  font-weight: bold;
 }
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6700,6 +6698,11 @@ figure.effect-bubba:hover p {
   display: none;
 }
 
+.collapse {
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+}
+
 .btn-contact {
   border: solid 3px #672471;
   width: 15em;
@@ -6914,6 +6917,10 @@ figure.effect-bubba:hover p {
   padding-bottom: 0.313rem;
 }
 
+#feedbacks {
+  margin-top: 5%;
+}
+
 .procedures-p {
   font-size: 1.75rem;
   margin-bottom: 3em;
@@ -7015,7 +7022,7 @@ figure.effect-bubba:hover p {
     width: auto;
     position: absolute;
     top: -60%;
-    left: 4.5%;
+    left: 23%;
   }
   .iconh {
     font-size: 35px;
@@ -7073,9 +7080,9 @@ figure.effect-bubba:hover p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .image-logo {
     display: none;
@@ -7086,6 +7093,72 @@ figure.effect-bubba:hover p {
     padding: 0;
   }
   .section-profile {
-    margin-top: 0;
+    height: 50vh;
+  }
+  .navbar-header {
+    margin-left: 14%;
+  }
+}
+@media (max-width: 650px) and (max-width: 600px) {
+  .div-title img {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: -60%;
+    left: 20%;
+  }
+}
+@media (max-width: 650px) and (max-width: 500px) {
+  .div-title img {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: -60%;
+    left: 15%;
+  }
+}
+@media (max-width: 650px) and (max-width: 450px) {
+  .div-title img {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: -60%;
+    left: 4%;
+  }
+}
+@media (max-width: 650px) and (max-width: 431px) {
+  .div-title img {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: -60%;
+    left: 9%;
+  }
+}
+@media (max-width: 650px) and (max-width: 415px) {
+  .div-title img {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: -60%;
+    left: 8%;
+  }
+}
+@media (max-width: 650px) and (max-width: 390px) {
+  .div-title img {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: -60%;
+    left: 5%;
+  }
+}
+@media (max-width: 650px) and (max-width: 360px) {
+  .div-title img {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: -60%;
+    left: 2%;
   }
 }

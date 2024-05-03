@@ -374,16 +374,15 @@ display:none;
 }
 
 .navbar-custom {
-  border: 0;
-  border-radius: 0;
-  margin: 0;
+  color: #7e4386;
   text-transform: uppercase;
   font-family: "Montserrat";
+
+  font-weight: bold;
 }
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-  background: $white;
   display: flex;
   align-items: center;
   padding: 19px;
@@ -846,4 +845,8 @@ margin-top: 3.125rem;
 }
 .displaynone{
   display: none;
+}
+
+.collapse {
+  transition: height 0.3s ease;
 }
