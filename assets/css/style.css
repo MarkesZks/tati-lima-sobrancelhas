@@ -6753,7 +6753,6 @@ figure.effect-bubba:hover p {
   text-align: center;
   border-bottom: 0.188rem solid #672471;
   display: inline-block;
-  padding-bottom: 0.313rem;
 }
 
 .cursos h3 {
@@ -6878,6 +6877,7 @@ figure.effect-bubba:hover p {
 .accordion-content p {
   margin: 0.938rem 0;
   line-height: 1.5;
+  color: black;
 }
 
 .icon {
@@ -6915,6 +6915,7 @@ figure.effect-bubba:hover p {
   border-bottom: 0.188rem solid #672471;
   display: inline-block;
   padding-bottom: 0.313rem;
+  margin-top: 30px;
 }
 
 #feedbacks {
@@ -6922,8 +6923,8 @@ figure.effect-bubba:hover p {
 }
 
 .procedures-p {
-  font-size: 1.75rem;
-  margin-bottom: 3em;
+  font-size: 1.35rem;
+  margin-bottom: 2em;
   text-align: center;
 }
 
@@ -7035,6 +7036,7 @@ figure.effect-bubba:hover p {
   }
   .subtitle-p {
     width: 90%;
+    text-align: center;
   }
   .curso-container {
     display: block;
