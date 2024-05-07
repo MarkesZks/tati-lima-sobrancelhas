@@ -6581,6 +6581,7 @@ figure.effect-bubba:hover p {
 }
 
 .texth2 {
+  margin-top: 5%;
   text-align: center;
 }
 
@@ -6595,11 +6596,6 @@ figure.effect-bubba:hover p {
 }
 
 /* our codes TITTLE CONFIG */
-/*Feedback*/
-#feedbacks {
-  margin-top: 3.125rem;
-}
-
 /* BUTTON CONFIG */
 .btn {
   border: solid 0.125rem #672471;
@@ -6907,6 +6903,11 @@ figure.effect-bubba:hover p {
   margin-bottom: 1rem;
 }
 
+.text-body-secondary {
+  color: #7e4386;
+  font-weight: 600;
+}
+
 /* PROCEDIMENTOS */
 .procedures {
   font-weight: bold;
@@ -6918,12 +6919,8 @@ figure.effect-bubba:hover p {
   margin-top: 30px;
 }
 
-#feedbacks {
-  margin-top: 5%;
-}
-
 .procedures-p {
-  font-size: 1.35rem;
+  font-size: 1rem;
   margin-bottom: 2em;
   text-align: center;
 }
