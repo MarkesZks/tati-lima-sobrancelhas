@@ -6749,19 +6749,33 @@ figure.effect-bubba:hover p {
 
 .cursos h2 {
   font-weight: bold;
-  font-size: 2.625rem;
+  font-size: 3.5rem;
   text-align: center;
   border-bottom: 0.188rem solid #672471;
   display: inline-block;
+  padding-bottom: 0.313rem;
+  margin-top: 30px;
 }
 
 .cursos h3 {
-  border-bottom: 0.063rem solid #672471;
   display: inline-block;
 }
 
 .cursos {
   margin-top: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .cursos .subtitle-p {
@@ -6774,17 +6788,28 @@ figure.effect-bubba:hover p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 1.625rem;
+  border: solid black 1px;
 }
 
 .img-cursos {
-  width: 30%;
+  width: 40%;
   border-radius: 1.625rem;
   border: 0.063rem solid #672471;
 }
 
 .curso-descritivo {
-  margin-left: 1.563rem;
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 30px;
 }
 
 .curso-descritivo h3 {
@@ -6797,29 +6822,6 @@ figure.effect-bubba:hover p {
   font-size: 1rem;
   word-wrap: break-word;
   white-space: normal;
-}
-
-/* // Section de cima */
-.curso-descritivo:nth-child(2) button {
-  position: absolute;
-  right: 0%;
-  bottom: 0%;
-  z-index: 1;
-  margin-bottom: -1.25rem;
-}
-
-/* // Section de baixo */
-.curso-descritivo:nth-child(1) button {
-  position: absolute;
-  bottom: 0%;
-  z-index: 1;
-}
-
-.line-subtitle {
-  background: #672471;
-  width: 100%;
-  height: 0.188rem;
-  margin: 1.25rem auto;
 }
 
 .accordion-container {
@@ -7028,24 +7030,36 @@ figure.effect-bubba:hover p {
   .iconh {
     font-size: 35px;
   }
-  .cursos {
-    margin-left: 50px;
-  }
-  .cursos h2 {
-    margin-left: 90px;
-  }
   .subtitle-p {
-    width: 90%;
+    width: 80%;
     text-align: center;
   }
+  .cursos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .curso-container {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
   }
   .img-cursos {
-    width: 90%;
-    border-radius: 26px;
-    border: 1px solid #672471;
-    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 1rem;
+    border: 0.063rem solid #672471;
   }
   .procedures {
     font-size: 2.5rem;
@@ -7058,22 +7072,11 @@ figure.effect-bubba:hover p {
     margin-left: auto;
     margin-right: auto;
   }
-  .curso-descritivo:nth-child(2) button {
-    position: relative;
-  }
-  /* // Section de baixo */
-  .curso-descritivo:nth-child(1) button {
-    position: relative;
-    margin-bottom: 50px;
-  }
   .displaynone {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 80px;
-  }
-  .img-cursos2 {
-    display: none;
   }
   .navbar-custom {
     display: -webkit-box;
