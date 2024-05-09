@@ -98,28 +98,32 @@
   font-size: 35px;
 
  }
- .cursos{
-margin-left: 50px;
 
-}
-.cursos h2{
-  margin-left: 90px;
-
-  }
 .subtitle-p{
-  width: 90%;
+  width: 80%;
   text-align: center;
 }
-.curso-container{
-  display: block;
+
+
+// cursos
+.cursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.curso-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .img-cursos{
-  width: 90%;
-  border-radius: 26px;
-  border: 1px solid #672471;
-  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 1rem;
+  border: 0.063rem solid $maincolor;
 }
+
 .procedures {
   font-size: 2.5rem;
 
@@ -132,22 +136,12 @@ margin-left: 50px;
   margin-left: auto;
   margin-right: auto;
 }
-.curso-descritivo:nth-child(2) button{
-  position: relative;
-}
 
-/* // Section de baixo */
-.curso-descritivo:nth-child(1) button{
-  position: relative;
-  margin-bottom: 50px;
-}
+
 
 .displaynone{
   display: flex;
   margin-top: 80px;
-}
-.img-cursos2{
-  display: none;
 }
 .navbar-custom{
   display: flex;
