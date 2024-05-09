@@ -183,47 +183,6 @@ h6 {
 
 
 
-.calltoaction * {
-  text-align: center;
-}
-.calltoaction {
-  background: url(../images/pics-brand/aplicado/);
-  background-color: #222;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  padding: 50px 0;
-  color: $opacit;
-  margin-top: 50px;
-}
-
-.calltoaction h2 {
-  font-size: $f20;
-  letter-spacing: 1px;
-  margin-bottom: 5px;
-}
-
-.calltoaction-decription {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  font-size: 20px;
-  color: $white;
-}
-
-.calltoaction-btn {
-  text-align: center;
-}
-
-.calltoaction-btn > .btn {
-  background: rgba(255, 255, 255, 0.8);
-  color: #111;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.calltoaction-btn > .btn:hover {
-  background: #fff;
-}
-
 
 
 /* ---------------------------------------------- /*
@@ -735,7 +694,6 @@ figure.effect-bubba:hover p {
 	height: 0.188rem;
 }
 .texth2{
-  margin-top: 5%;
 text-align: center;
 }
 
