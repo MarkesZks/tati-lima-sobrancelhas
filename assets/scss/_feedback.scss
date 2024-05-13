@@ -159,6 +159,9 @@ figure {
   right: -2px;
   transform: translateY(-50%);
 }
+.splide__slide{
+  height: 20%;
+}
 
 @media (min-width: 768px) {
   .section-with-carousel .swiper-slide img {

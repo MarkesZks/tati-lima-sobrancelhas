@@ -36,6 +36,10 @@
   display: block;
 }
 
+.tatiimgmobile {
+  display: none;
+}
+
 .content {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -6847,6 +6851,10 @@ figure {
           transform: translateY(-50%);
 }
 
+.splide__slide {
+  height: 20%;
+}
+
 @media (min-width: 768px) {
   .section-with-carousel .swiper-slide img {
     height: 370px;
@@ -7416,9 +7424,20 @@ figure {
     display: none;
   }
   .tatiimgmobile {
-    width: 80%;
+    width: 70%;
     margin: 0;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    margin-bottom: -50px;
   }
   .section-profile {
     height: 50vh;
