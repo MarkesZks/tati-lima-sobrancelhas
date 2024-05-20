@@ -190,15 +190,19 @@ h6 {
 /* ---------------------------------------------- */
 
 #home {
-
-    background-color: $maincolor;
-height: 100vh;
+  background-color: $maincolor;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 ;
 }
 #home-bk-img{
-display: flex;
-justify-content: center;
-align-items: center;
+  background-image: url('../images/pics-brand/logo/logo-prata-ofc.png');
+  background-position: center;
+  background-size: contain; // Ajusta a imagem para caber no contêiner
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
 }
 
 #homeimg{
@@ -432,6 +436,7 @@ justify-content: center;
 }
 
 .scroll-down {
+  right: 50%;
   position: absolute;
   bottom: 40px;
   border: 2px solid $white;
