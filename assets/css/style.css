@@ -6040,18 +6040,21 @@ h6 {
 #home {
   background-color: #672471;
   height: 100vh;
-}
-
-#home-bk-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+#home-bk-img {
+  background-image: url("../images/pics-brand/logo/logo-prata-ofc.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
 }
 
 #homeimg {
@@ -6285,6 +6288,7 @@ h6 {
 }
 
 .scroll-down {
+  right: 50%;
   position: absolute;
   bottom: 40px;
   border: 2px solid #fff;
@@ -7278,23 +7282,29 @@ figure {
 }
 @media (max-width: 1200px) {
   #home {
-    height: 70vh;
+    height: 100vh;
+  }
+  #home-bk-img {
+    background-image: url("../images/pics-brand/small-logo/small-logo-branco-prata.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
   }
 }
 @media (max-width: 800px) {
   #home {
-    height: 40vh;
+    height: 100vh;
   }
   .scroll-down {
-    display: none;
+    position: absolute;
+    right: 43.9%;
   }
   #homecell {
     display: block;
     width: 50%;
     padding: 20px;
-  }
-  #homeimg {
-    display: none;
   }
   .icons-footer a {
     font-size: 1.25rem;
@@ -7314,6 +7324,9 @@ figure {
   }
 }
 @media (max-width: 767px) {
+  #home {
+    height: 100vh;
+  }
   .calltoaction {
     text-align: center;
   }
@@ -7328,7 +7341,7 @@ figure {
     padding: 20px;
   }
   #home {
-    height: 25vh;
+    height: 100vh;
   }
   #homecell {
     width: 45%;
