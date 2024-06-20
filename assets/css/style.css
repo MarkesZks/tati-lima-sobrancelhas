@@ -6685,6 +6685,18 @@ figure {
   margin: 0;
 }
 
+.img_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.img_box img {
+  height: 400px;
+  width: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 /* MAIN STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -7023,7 +7035,6 @@ figure {
   display: -ms-flexbox;
   display: flex;
   border-radius: 1.625rem;
-  border: solid black 1px;
 }
 
 .img-cursos {

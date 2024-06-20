@@ -18,6 +18,16 @@ figure {
   margin: 0;
 }
 
+.img_box {
+  display: flex;
+
+  img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+  }
+}
+
 
 /* MAIN STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

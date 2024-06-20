@@ -12,7 +12,7 @@ var splide = new Splide( '.splide', {
   breakpoints: {
     767: {
       perPage: 1,
-      gap: '.7rem'
+      gap: '4rem'
     }
   }
 } );
